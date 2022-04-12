@@ -5,7 +5,7 @@ import cv2
 
 # >_ объявляем индификатор камеры ( подключаем камеру к проекту)
 # >_ ВАЖНО! чтобы камера была свободна (все приложения, использующие камеру, должны быть закрыты)
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture( 0 )
 
 # запускаем бесконечный цикл
 while True:
@@ -17,7 +17,7 @@ while True:
     ret, frame = cap.read()
 
     # >_  переводим кадр frame из формата  BGR в формат HSV
-    frame_HSV = cv2.cvtColor(frame , cv2.COLOR_BGR2HSV)
+    frame_HSV = cv2.cvtColor( frame, cv2.COLOR_BGR2HSV )
 
 
 
@@ -45,17 +45,17 @@ while True:
     clr_high = ( 15, 255, 255 )
     
     # >_ находим цветовой промежуток (изображение-маску) функцией inRangе
-    frame_clr = cv2.inRange(frame_HSV, clr_low, clr_high)
+    frame_clr = cv2.inRange( frame_HSV, clr_low, clr_high )
 
     # >_ показываем кадр frame, взятый с камеры
-    cv2.imshow('main', frame )
+    cv2.imshow( 'main', frame )
     
     # >_ показываем маску цвета (она черно-белая )
-    cv2.imshow('frame mask', frame_clr )
+    cv2.imshow( 'frame mask', frame_clr )
 
     # >_ условие прерывания
     #     По нажатию на кнопку 'q' на клавиатуре завершается работа программы
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey( 1 ) == ord( 'q' ):
         break
 
 # >_ завершение работы с камерой

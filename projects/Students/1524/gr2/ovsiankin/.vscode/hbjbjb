@@ -1,0 +1,31 @@
+import cv2
+
+cap = cv2.VideoCapture(0)
+
+def findContours (clr_mask,out):
+   cont,h = cv2.findContours(clr_mask,
+                            cv2.RETR_TREE,
+cv2.CHAIN_APPROX_SIMPLE)
+    cont - sorted( cont, key=cv2.ContoursArea, reverse=true) 
+    cv2.drawContours(out, cont, contourIdx=0, color=(255,255,0)
+                    thickness=2)             
+while True:
+    tr, frame = cap.read()
+    cv2.imshow ('main', frame )
+    
+                           cv2.Color_BGR2HSV,
+                           clr_low,
+                           clr_high)
+    clr_low = (0, 210, 110)
+    clr_high = (15,255,255)
+
+    if cv2.waitKey (1) == ord('q'):
+        break
+
+cap.release()
+cv2.destroyAllWindows()
+
+
+
+
+

@@ -4,9 +4,9 @@ import numpy as np
 
 cap = cv2.VideoCapture(0)
 
-def findDot (color_mask, cnv):
+def findCenter (clr_mask, cnv):
     
-    moments = cv2.moments(color_mask, 1)
+    moments = cv2.moments(clr_mask, 1)
     dM01 = moments['m01']
     dM10 = moments['m10']
     dArea = moments['m00']
@@ -16,15 +16,15 @@ def findDot (color_mask, cnv):
         y = int(dM01 / dArea)
         cv2.circle(cnv, (x, y), 10, (0,0,255), -1)
 
-def drawFirstAndSecondContour(color_mask, cnv):
-    contours, hierarchy = cv2.findContours( color_mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+def findContour(color_mask, out ):
+    cont, h= cv2.findContours( color_mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     
-    contours = sorted(contours, key=cv2.contourArea, reverse = True)
+    cont = sorted(cont, key=cv2.contourArea, reverse = True)
     
     try:
-        if cv2.contourArea(contours[0]) > 100:
-            cv2.drawContours( cnv, contours, contourIdx=0, color=(0,255,0), thickness=1 )
-            cv2.drawContours( cnv, contours, contourIdx=1, color=(255,255,0), thickness=1 )
+        cv2.drawContours( out, cont, contourIdx=0, color=(0,255,0), thickness=1 )
+        
+        findCenter(cont[0], out)
     except:
         pass
 
@@ -32,17 +32,19 @@ while True:
     ret, frame = cap.read()
     frame_HSV = cv2.cvtColor(frame , cv2.COLOR_BGR2HSV) 
     # красный 
-    red_low = (0,140,160)
-    red_high = (15,255,255)
+    clr_low = (0,150,110)
+    clr_high = (15,255,255)
 
     
-    frame_reds = cv2.inRange(frame_HSV, red_low, red_high)
-    findDot(frame_reds, frame)
-    drawFirstAndSecondContour(frame_reds, frame)
+    frame_clr = cv2.inRange(frame_HSV, clr_low, clr_high)
+
+
+    findCenter(frame_clr, frame)
+    findContour(frame_clr, frame)
 
     cv2.imshow('original', frame )
-    cv2.imshow('red', frame_reds )
-    if cv2.waitKey(1) == 27:
+    cv2.imshow('red', frame_clr )
+    if cv2.waitKey(1) == ord('q'):
         break
 
 

@@ -21,4 +21,4 @@
 
 <b><p>Email: <a href= mailto:seripp28@gmail.com>  seripp28@gmail.com</a></p></b>
 
-# <a href="https://docs.google.com/presentation/d/1QTxO7EU3-SijMBV_HNjr3uDF9VvpUBgivgLDAjb13nA/edit#slide=id.g12766352b3a_2_54"> Приммер презентации индивидуального проекта </a>
+# <a href="https://docs.google.com/presentation/d/1QTxO7EU3-SijMBV_HNjr3uDF9VvpUBgivgLDAjb13nA/edit#slide=id.p"> Приммер презентации индивидуального проекта </a>

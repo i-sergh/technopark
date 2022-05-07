@@ -46,5 +46,5 @@ while True:
     cv2.imshow('main', frameV)
     if cv2.waitKey(1) == ord('q'):
         break
-cap.release()
+#cap.release()
 cv2.destroyAllWindows()

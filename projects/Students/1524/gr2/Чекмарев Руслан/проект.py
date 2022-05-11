@@ -7,8 +7,10 @@ while True:
     if not rt:
         vid = cv2.VideoCapture('in.mp4')
         rt, frame = vid.read()
-
-    frame_HSV = cv2.cvtColor( frame,
+    #print(frame.shape)
+    frame_ = frame.copy()
+    frame_ [450:,900:, : ] = 0
+    frame_HSV = cv2.cvtColor( frame_,
                               cv2.COLOR_BGR2HSV )
 
     clr_low = (0,  0, 160)

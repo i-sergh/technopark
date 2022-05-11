@@ -7,6 +7,8 @@ while True :
     clr_high = (120, 255, 255)
     frame_clr = cv2.inRange( frame_HSV, clr_low, clr_high)
     cv2.imshow('main', frame )
+    frame[frame_clr==255]=(100, 0, 200)
+    cv2.imshow('ch', frame )
     cv2.imshow ('frame mask', frame_clr)
     if cv2.waitKey(1) == ord('q'):
         break

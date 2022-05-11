@@ -19,9 +19,9 @@ def findContour(clr_mask, out):
 
             cv2.circle(out, (x, y), 5, (0, 255, 2555), -1)
             return x, y            
-
+        return None, None
     except:
-        pass
+        return None, None
 
 while True:
     tr, frame = cap.read()
@@ -40,11 +40,15 @@ while True:
     frame_clr_r = cv2.inRange( frame_HSV, clr_low_r, clr_high_r)
     frame_clr_y = cv2.inRange( frame_HSV, clr_low_y, clr_high_y)
     frame_clr_g = cv2.inRange( frame_HSV, clr_low_g, clr_high_g)
-    print(findContour( frame_clr_r, frame ))
-    findContour( frame_clr_y, frame )
-    findContour( frame_clr_g, frame )
-
-    #cv2.imshow('mask', frame_clr)
+    cR = findContour( frame_clr_r, frame )
+    cY = findContour( frame_clr_y, frame )
+    cg = findContour( frame_clr_g, frame )
+    print(cR)
+    if cR[0] and cY[0]:
+        cv2.line(frame,cR, cY, (200, 0, 100), 10 )
+    if cY[0] and cg[0]:
+        cv2.line(frame,cY, cg, (200, 0, 100), 10 )
+       #cv2.imshow('mask', frame_clr)
     cv2.imshow('main', frame)
 
     if cv2.waitKey( 1 ) == ord('q'):

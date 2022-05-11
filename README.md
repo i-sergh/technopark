@@ -20,3 +20,10 @@
 <b><a href= https://twitter.com/SerghjyStrange> Сергей ( ноет ) в twitter</a> <p></b>
 
 <b><p>Email: <a href= mailto:seripp28@gmail.com>  seripp28@gmail.com</a></p></b>
+
+# <a href="https://drive.google.com/drive/folders/1bTi1d3u5BYdicCl0uQj_1XlC6-daeqL5?usp=sharing"> Приммер презентации индивидуального проекта </a>
+
+# QR код для открытия
+
+![qr-code](https://user-images.githubusercontent.com/63306343/166668894-59123409-0df8-46b2-85e3-3275ba8e531f.gif)
+

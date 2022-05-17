@@ -23,6 +23,10 @@
 
 # <a href="https://drive.google.com/drive/folders/1bTi1d3u5BYdicCl0uQj_1XlC6-daeqL5?usp=sharing"> Приммер презентации индивидуального проекта </a>
 
+# <a href="https://drive.google.com/drive/folders/1tnVWjQ-rR9vw4LkqSU_sRqZsEWQ0kAJN?usp=sharing"> ВЫПОЛНЯТЬ СДЕСЯ ТУТАЧКИ *ЖМЯК* </a>
+
+
+
 # QR код для открытия
 
 ![qr-code](https://user-images.githubusercontent.com/63306343/166668894-59123409-0df8-46b2-85e3-3275ba8e531f.gif)

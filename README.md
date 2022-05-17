@@ -21,11 +21,11 @@
 
 <b><p>Email: <a href= mailto:seripp28@gmail.com>  seripp28@gmail.com</a></p></b>
 
-# <a href="https://drive.google.com/drive/folders/1bTi1d3u5BYdicCl0uQj_1XlC6-daeqL5?usp=sharing"> Приммер презентации индивидуального проекта </a>
+# <a href="https://drive.google.com/drive/folders/1TMOGWZnzHAEAHOdoQDblWX0NvKq-1xnF?usp=sharing"> Приммер презентации индивидуального проекта </a>
 
-# <a href="https://drive.google.com/drive/folders/1tnVWjQ-rR9vw4LkqSU_sRqZsEWQ0kAJN?usp=sharing"> ВЫПОЛНЯТЬ СДЕСЯ ТУТАЧКИ *ЖМЯК* </a>
+# <a href="https://drive.google.com/drive/u/0/folders/1u4FOfqcUhrtI3yF0t3WijcYrqkmCPvsc"> РОБОПОТЕХНИКА И КОМПЬЮТКОРНОЕ ЗРЕНИЕ \n ВЫПОЛНЯТЬ СДЕСЯ \n ТУТАЧКИ *ЖМЯК* </a>
 
-
+### <a href="https://drive.google.com/drive/folders/1iHNIpfC2nITgmL1SOoQo_v_ZUZr5zYV0?usp=sharing"> ВЫПОЛНЯТЬ СДЕСЯ ТУТАЧКИ *ЖМЯК* </a>
 
 # QR код для открытия
 

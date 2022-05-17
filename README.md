@@ -25,7 +25,7 @@
 
 # <a href="https://drive.google.com/drive/u/0/folders/1u4FOfqcUhrtI3yF0t3WijcYrqkmCPvsc"> <p>РОБОПОТЕХНИКА И КОМПЬЮТКОРНОЕ ЗРЕНИЕ </p> <p>ВЫПОЛНЯТЬ СДЕСЯ </p> <p>ТУТАЧКИ *ЖМЯК* <p> </a>
 
-### <a href="https://drive.google.com/drive/folders/1iHNIpfC2nITgmL1SOoQo_v_ZUZr5zYV0?usp=sharing"> ВЫПОЛНЯТЬ СДЕСЯ ТУТАЧКИ *ЖМЯК* </a>
+### <a href="https://drive.google.com/drive/folders/1iHNIpfC2nITgmL1SOoQo_v_ZUZr5zYV0?usp=sharing"> Энерджи+хайтек, на всякий случай </a>
 
 # QR код для открытия
 

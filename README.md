@@ -32,4 +32,4 @@
 ![qr-code](https://user-images.githubusercontent.com/63306343/166668894-59123409-0df8-46b2-85e3-3275ba8e531f.gif)
 
 
-{\displaysyle P={\frac {16}{27t}}{\frac {1}{2}}\rho v^{3}A={\frac {8}{27}}\rho v^{3}A}
+
